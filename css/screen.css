@@ -1,0 +1,312 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 19, 2014, 7:24:40 PM
+    Author     : eleazarozuna
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC);
+
+*{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    max-width: 1140px;
+    color: white;
+    margin: 0 auto;
+}
+a{
+    color:white;
+}
+body{
+    max-width: 1140px;
+    padding-bottom: 25px;
+    background-color: black;
+}
+header a:link{
+    text-decoration: none;
+}
+nav{
+    font-family: 'IM Fell English SC', arial, sans-serif;
+    font-size: 1.5rem;
+    width: 20%;
+    float:left;
+}
+nav ul{
+    margin-top: 2%;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+    padding-top: 1%;
+
+}
+#mainheader{
+    font-family: tangerine, arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1%;
+}
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+main h1{
+    font-family: 'IM Fell English SC', arial, sans-serif;
+    text-align: right;
+}
+#logIn{
+    position: relative;
+    margin-left: 88%;
+}
+#logIn a{
+    margin-right: 10%;
+
+}
+#loginForm{
+    width: 65%;
+    position: relative;
+    left: 18%;    
+}
+
+#logfield{
+    border: cyan ridge 5px ;
+    text-align: center;
+    width: 37%;
+}
+#updateline{
+    margin-left: 15%;
+}
+#updateform{
+    width: 97%;
+    position: relative;
+    margin-left: 16%;
+}
+#updatefield{
+    border: cyan ridge 5px ; 
+    width: 26%;
+    text-align: center;
+    margin-left: 23%;
+}
+#uploadform{
+    width: 97%;
+    position: relative;
+    margin-left: 16%;
+}
+#uploadfield{
+    border: cyan ridge 5px ; 
+    width: 26%;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+#regfield{
+    border: cyan ridge 5px ; 
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+#regform{
+    width: 50%;
+    margin: 0 auto;
+}
+#updateimgform{
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+#updateimgfield{
+    border: cyan ridge 5px ; 
+    width: 51%;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 4%;
+}
+#updateimgform input{
+    margin-top: 5px;
+}
+#regform label, #loginForm label, #updateform label, #uploadform label, #updateimgform label{
+    display: table-cell;
+    text-align: center;
+}
+#regform input, #loginForm input, #updateform input, #uploadform input, #updateimgform input{
+    display: table-row;
+}
+table{
+    position: relative;
+    left: -4%;
+}
+table, td {
+    border: 1px solid cyan;
+}
+th{
+    height: 40px;
+    width: 15%;
+}
+#message{
+    font-family: 'Playfair Display SC', arial, sans-serif;
+    font-size: 2.5rem;
+    color: red;
+    margin-left: 8%;
+    float: left;
+    margin-top: 5%;
+}
+.button {
+    margin-bottom: 3px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 5.5px 11px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 12px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+.plane{
+    background-image: url(/img/planelight.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-bottom: 25px;
+}
+.thumbs img{
+    float: left;
+    margin: 1rem;
+    height: 8rem;
+    max-width: calc(100% - 2rem);
+    max-width: 70%;
+}
+#switcher-wrapper{
+    width: 240px;
+    position: relative;
+    top: 150px;
+}
+#switcher-wrapper a{
+    display: block;
+    width: 500px;
+    height: 331px;
+    position: absolute;
+    margin-left: 86%;
+    margin-top: -40%;
+}
+#one{
+    background-image: url(/img/landscape_one.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+#two{
+    background-image: url(/img/still_one.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#three{
+    background-image: url(/img/warren.jpg);
+}
+#switcher-wrapper a span{
+    position: absolute;
+    font-family: tangerine, arial, sans-serif;
+    font-size: 2rem;
+    margin-left: -23%;
+    margin-top: -3%;
+}
+#one span{
+    left: 45px; 
+    top: -35px;
+}
+#two span{
+    left: 330px;
+    top: -35px;
+}
+#three span{
+    left: 620px; 
+    top: -35px;
+}
+#switcher-wrapper a:hover{
+    z-index: 2;
+}
+#contact, #contact2{
+    width: 50%;
+    margin-left: 17%;
+    margin-top: 3%;
+    float: left;
+}
+#lynnwrap{
+    width: 240px;
+    position: relative;
+    top: 25px;
+    margin-left: 57%;
+}
+#lynnwrap a{
+    display:block;
+    width: 300px;
+    height: 225px;
+    position: absolute;
+
+    left:-190px;
+}
+#lynn{
+    background-image: url(/img/lynnabout.jpg);
+}
+#lynnwrap a span{
+    position: absolute;
+    font-family: tangerine, arial, sans-serif;
+    font-size: 2rem;
+    top: -35px;
+    margin-left: 345px;
+    color: #94669c;
+    width: 100%;
+}
+#options{
+    float: right;
+}
+#options a{
+margin-left: 15px;
+}
+footer{
+    text-align: center;
+    height: 20px;
+    width: 1140px;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 0%;
+}
+footer li{
+    list-style-type: none;
+}
+.full{
+    margin: 0 auto;
+}
