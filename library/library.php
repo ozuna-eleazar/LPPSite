@@ -22,7 +22,7 @@ try {
     return false;   
 }
 
-//Connect to DB using the admin proxy.
+//Connect to Guitar1 DB using the admin proxy.
 function lynnpageAdmin(){
 $server = 'localhost';
 $username = 'lynnpage_iAdmin';

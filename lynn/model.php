@@ -5,7 +5,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-// Connection to the database
 require $_SERVER['DOCUMENT_ROOT'] . '/library/library.php';
 
 function adduser($firstname, $lastname, $emailaddress, $password) {

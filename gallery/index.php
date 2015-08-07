@@ -16,7 +16,7 @@
                 <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php'; ?>
                 
                 <div id="switcher-wrapper">
-                    <a id="one" href="/lynn/index.php?action=grid&amp;category=1"><span>Projects</span></a>
+                    <a id="one" href="/lynn/index.php?action=grid&amp;category=1"><span>Landscapes</span></a>
                     <a id="two" href="/lynn/index.php?action=grid&amp;category=2"><span>Still Life</span></a>
                     <a id="three" href="/lynn/index.php?action=grid&amp;category=3"><span>Portrait</span></a>           
                 </div>

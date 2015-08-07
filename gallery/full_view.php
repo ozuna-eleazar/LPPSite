@@ -16,11 +16,9 @@
                 <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/navigation.php'; ?>
                 
                 <div class="full">
-                    <div id="imagehere">
                     <?php
                     echo "<img src='{$fullimage['url']}' alt='{$fullimage['alt']}'>";
-                    ?>         
-                    </div>         
+                    ?>                   
                 </div>
                 <div id="options">
                 <?php if ($_SESSION['admin'] == TRUE) { ?>
